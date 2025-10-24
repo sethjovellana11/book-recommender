@@ -30,6 +30,11 @@ const resultsHeading = document.getElementById("resultsHeading");
 const bookResults = document.getElementById("bookResults");
 const filterForm = document.getElementById("filterForm");
 const activeFiltersContainer = document.getElementById("activeFiltersContainer");
+const paginationControls = document.getElementById("paginationControls");
+
+const PAGE_SIZE = 9;
+let currentPage = 1;
+let filteredBooks = [];
 
 const filterState = {
 	genres: new Set(),
@@ -75,6 +80,7 @@ filterForm.addEventListener("reset", () => {
 		}
 		popularitySelect.value = "any";
 		eraSelect.value = "any";
+		currentPage = 1;
 		updateActiveFilters();
 		applyFilters();
 	}, 0);
@@ -86,6 +92,7 @@ async function bootstrap() {
 	try {
 		books = await fetchBooks();
 		isLoaded = true;
+		currentPage = 1;
 		populateGenreOptions();
 		updateActiveFilters();
 		applyFilters();
@@ -116,6 +123,10 @@ async function fetchBooks() {
 }
 
 function setLoadingState(message) {
+	isLoaded = false;
+	filteredBooks = [];
+	currentPage = 1;
+	clearPagination();
 	resultsHeading.textContent = message;
 	bookResults.innerHTML = "";
 	const loading = document.createElement("div");
@@ -127,6 +138,9 @@ function setLoadingState(message) {
 function showLoadError(message) {
 	isLoaded = false;
 	books = [];
+	filteredBooks = [];
+	currentPage = 1;
+	clearPagination();
 	resultsHeading.textContent = "Unable to load recommendations right now.";
 	bookResults.innerHTML = "";
 	const errorBlock = document.createElement("div");
@@ -180,6 +194,7 @@ function handleGenreSelection() {
 	}
 
 	filterState.genres.add(value);
+	currentPage = 1;
 	updateActiveFilters();
 	applyFilters();
 }
@@ -191,6 +206,7 @@ function handlePopularityChange() {
 	}
 
 	filterState.popularity = value;
+	currentPage = 1;
 	updateActiveFilters();
 	applyFilters();
 }
@@ -202,6 +218,7 @@ function handleEraChange() {
 	}
 
 	filterState.era = value;
+	currentPage = 1;
 	updateActiveFilters();
 	applyFilters();
 }
@@ -225,6 +242,7 @@ function removeFilter(type, value) {
 		eraSelect.value = "any";
 	}
 
+	currentPage = 1;
 	updateActiveFilters();
 	applyFilters();
 }
@@ -297,13 +315,29 @@ function applyFilters() {
 		return rankA - rankB || a.title.localeCompare(b.title);
 	});
 
-	renderBooks(filtered);
+	filteredBooks = filtered;
+
+	if (!filteredBooks.length) {
+		currentPage = 1;
+		renderBooksPage();
+		return;
+	}
+
+	const totalPages = Math.ceil(filteredBooks.length / PAGE_SIZE);
+	if (currentPage > totalPages) {
+		currentPage = totalPages;
+	}
+	if (currentPage < 1) {
+		currentPage = 1;
+	}
+
+	renderBooksPage();
 }
 
-function renderBooks(collection) {
+function renderBooksPage() {
 	bookResults.innerHTML = "";
 
-	if (!collection.length) {
+	if (!filteredBooks.length) {
 		if (!books.length) {
 			resultsHeading.textContent = "No books are available yet.";
 		} else {
@@ -314,17 +348,83 @@ function renderBooks(collection) {
 		emptyState.className = "empty-state";
 		emptyState.textContent = "Tip: broaden your genre or era to surface more titles.";
 		bookResults.appendChild(emptyState);
+		clearPagination();
 		return;
 	}
 
-	resultsHeading.textContent = `${collection.length} recommendation${collection.length === 1 ? "" : "s"} for you`;
+	const totalPages = Math.max(1, Math.ceil(filteredBooks.length / PAGE_SIZE));
+	if (currentPage > totalPages) {
+		currentPage = totalPages;
+	}
+	if (currentPage < 1) {
+		currentPage = 1;
+	}
 
+	const startIndex = (currentPage - 1) * PAGE_SIZE;
+	const pageItems = filteredBooks.slice(startIndex, startIndex + PAGE_SIZE);
+	const totalCount = filteredBooks.length;
+	const label = totalCount === 1 ? "recommendation" : "recommendations";
+	const pageLabel = totalPages > 1 ? ` • Page ${currentPage} of ${totalPages}` : "";
+
+	resultsHeading.textContent = `${totalCount} ${label}${pageLabel}`;
+
+	renderBookCards(pageItems);
+	renderPagination(totalPages);
+}
+
+function renderBookCards(collection) {
 	const fragment = document.createDocumentFragment();
 	collection.forEach(book => {
 		fragment.appendChild(createBookCard(book));
 	});
 
 	bookResults.appendChild(fragment);
+}
+
+function renderPagination(totalPages) {
+	if (!paginationControls) {
+		return;
+	}
+
+	paginationControls.innerHTML = "";
+
+	if (totalPages <= 1) {
+		return;
+	}
+
+	const fragment = document.createDocumentFragment();
+
+	for (let page = 1; page <= totalPages; page += 1) {
+		const button = document.createElement("button");
+		button.type = "button";
+		button.textContent = String(page);
+		button.setAttribute("aria-label", `Go to page ${page}`);
+
+		if (page === currentPage) {
+			button.classList.add("active");
+			button.setAttribute("aria-current", "page");
+			button.setAttribute("aria-label", `Current page, page ${page}`);
+		}
+
+		button.addEventListener("click", () => {
+			if (page === currentPage) {
+				return;
+			}
+
+			currentPage = page;
+			renderBooksPage();
+		});
+
+		fragment.appendChild(button);
+	}
+
+	paginationControls.appendChild(fragment);
+}
+
+function clearPagination() {
+	if (paginationControls) {
+		paginationControls.innerHTML = "";
+	}
 }
 
 function createBookCard(book) {
