@@ -1,12 +1,102 @@
 [
   {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "genres": ["Classic", "Crime", "Psychological"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "A poor ex-student murders a pawnbroker and wrestles with guilt and redemption in St. Petersburg.",
+    "goodreads": "https://www.goodreads.com/book/show/7144.Crime_and_Punishment"
+  },
+  {
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "genres": ["Classic", "Philosophical", "Drama"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "Three brothers clash over faith, doubt, and morality as their father's murder unfolds.",
+    "goodreads": "https://www.goodreads.com/book/show/4934.The_Brothers_Karamazov"
+  },
+  {
+    "title": "The Stranger",
+    "author": "Albert Camus",
+    "genres": ["Classic", "Philosophical"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "An indifferent man commits murder and confronts the absurdity of existence.",
+    "goodreads": "https://www.goodreads.com/book/show/49552.The_Stranger"
+  },
+  {
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "genres": ["Classic", "Adventure"],
+    "popularity": "blockbuster",
+    "era": "classic",
+    "summary": "An old fisherman battles a giant marlin and his own limits of endurance.",
+    "goodreads": "https://www.goodreads.com/book/show/2165.The_Old_Man_and_the_Sea"
+  },
+  {
+    "title": "No Longer Human",
+    "author": "Osamu Dazai",
+    "genres": ["Psychological", "Drama"],
+    "popularity": "hidden",
+    "era": "modern",
+    "summary": "A man alienated from society hides despair behind a mask of humor and detachment.",
+    "goodreads": "https://www.goodreads.com/book/show/12263.No_Longer_Human"
+  },
+  {
+    "title": "Thus Spoke Zarathustra",
+    "author": "Friedrich Nietzsche",
+    "genres": ["Philosophical", "Classic"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "Zarathustra preaches the rise of the Übermensch and the death of God.",
+    "goodreads": "https://www.goodreads.com/book/show/17488.Thus_Spoke_Zarathustra"
+  },
+  {
+    "title": "Norwegian Wood",
+    "author": "Haruki Murakami",
+    "genres": ["Drama", "Romance"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "A Tokyo student reflects on love and loss during the 1960s.",
+    "goodreads": "https://www.goodreads.com/book/show/11297.Norwegian_Wood"
+  },
+  {
+    "title": "Kafka on the Shore",
+    "author": "Haruki Murakami",
+    "genres": ["Magical Realism", "Philosophical"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "Two wanderers cross paths in a surreal world where dreams and reality merge.",
+    "goodreads": "https://www.goodreads.com/book/show/4929.Kafka_on_the_Shore"
+  },
+  {
+    "title": "1Q84",
+    "author": "Haruki Murakami",
+    "genres": ["Fantasy", "Thriller"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "Two people navigate a strange parallel Tokyo ruled by mysterious forces.",
+    "goodreads": "https://www.goodreads.com/book/show/10357575-1q84"
+  },
+  {
+    "title": "Ham on Rye",
+    "author": "Charles Bukowski",
+    "genres": ["Drama", "Psychological"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "A rough childhood shapes a cynical young man finding his own truth in a cruel world.",
+    "goodreads": "https://www.goodreads.com/book/show/16065.Ham_on_Rye"
+  },
+  {
     "title": "The Night Circus",
     "author": "Erin Morgenstern",
     "genres": ["Fantasy", "Romance"],
     "popularity": "critical",
     "era": "contemporary",
-    "summary": "Two magicians locked in a mysterious duel weave a circus of wonders that appears without warning.",
-    "goodreads": "https://www.goodreads.com/book/show/9361589-the-night-circus"
+    "summary": "Two rival magicians build a mysterious circus that hides their duel of destiny.",
+    "goodreads": "https://www.goodreads.com/book/show/9361589-The_Night_Circus"
   },
   {
     "title": "Project Hail Mary",
@@ -14,8 +104,8 @@
     "genres": ["Science Fiction", "Thriller"],
     "popularity": "blockbuster",
     "era": "contemporary",
-    "summary": "A lone astronaut wakes with no memory and must save humanity armed with science and stubborn optimism.",
-    "goodreads": "https://www.goodreads.com/book/show/54493401-project-hail-mary"
+    "summary": "A lone astronaut must save humanity armed only with science and hope.",
+    "goodreads": "https://www.goodreads.com/book/show/54493401-Project_Hail_Mary"
   },
   {
     "title": "Pachinko",
@@ -23,8 +113,8 @@
     "genres": ["Historical", "Drama"],
     "popularity": "critical",
     "era": "contemporary",
-    "summary": "Four generations of a Korean family fight to control their destiny in 20th century Japan.",
-    "goodreads": "https://www.goodreads.com/book/show/29950575-pachinko"
+    "summary": "A Korean family endures love, loss, and identity across generations in Japan.",
+    "goodreads": "https://www.goodreads.com/book/show/29950575-Pachinko"
   },
   {
     "title": "Kindred",
@@ -32,7 +122,7 @@
     "genres": ["Science Fiction", "Historical"],
     "popularity": "critical",
     "era": "modern",
-    "summary": "A modern Black woman is pulled through time to a pre-Civil War plantation, confronting history firsthand.",
+    "summary": "A woman is transported to a slave plantation, confronting history firsthand.",
     "goodreads": "https://www.goodreads.com/book/show/60931.Kindred"
   },
   {
@@ -41,17 +131,8 @@
     "genres": ["Fantasy", "Adventure"],
     "popularity": "blockbuster",
     "era": "contemporary",
-    "summary": "Kvothe recounts his legendary life, from orphaned street performer to infamous arcanist.",
+    "summary": "A gifted young man recounts his rise from orphan to legend.",
     "goodreads": "https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind"
-  },
-  {
-    "title": "The Seven Husbands of Evelyn Hugo",
-    "author": "Taylor Jenkins Reid",
-    "genres": ["Drama", "Romance"],
-    "popularity": "blockbuster",
-    "era": "contemporary",
-    "summary": "An aging Hollywood icon reveals her ruthless rise to fame and the love she never stopped fighting for.",
-    "goodreads": "https://www.goodreads.com/book/show/32620332-the-seven-husbands-of-evelyn-hugo"
   },
   {
     "title": "Mistborn: The Final Empire",
@@ -59,7 +140,7 @@
     "genres": ["Fantasy", "Adventure"],
     "popularity": "blockbuster",
     "era": "contemporary",
-    "summary": "A ragtag crew plots to overthrow an immortal tyrant using a unique metal-based magic system.",
+    "summary": "A crew of rebels plans to overthrow a godlike tyrant using metal-based magic.",
     "goodreads": "https://www.goodreads.com/book/show/68428.Mistborn"
   },
   {
@@ -68,17 +149,8 @@
     "genres": ["Fantasy", "Magical Realism"],
     "popularity": "critical",
     "era": "contemporary",
-    "summary": "A man revisits childhood memories where ancient forces threatened reality itself.",
-    "goodreads": "https://www.goodreads.com/book/show/15783514-the-ocean-at-the-end-of-the-lane"
-  },
-  {
-    "title": "The Left Hand of Darkness",
-    "author": "Ursula K. Le Guin",
-    "genres": ["Science Fiction", "Political"],
-    "popularity": "critical",
-    "era": "modern",
-    "summary": "An envoy to an icy world must navigate shifting alliances and gender fluidity to broker peace.",
-    "goodreads": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness"
+    "summary": "A man revisits childhood memories of magic and terror.",
+    "goodreads": "https://www.goodreads.com/book/show/15783514-The_Ocean_at_the_End_of_the_Lane"
   },
   {
     "title": "Rebecca",
@@ -86,26 +158,8 @@
     "genres": ["Gothic", "Mystery"],
     "popularity": "critical",
     "era": "modern",
-    "summary": "A new bride arrives at Manderley only to be haunted by the lingering presence of Rebecca.",
+    "summary": "A new bride is haunted by the lingering presence of her husband's late wife.",
     "goodreads": "https://www.goodreads.com/book/show/12873.Rebecca"
-  },
-  {
-    "title": "The House in the Cerulean Sea",
-    "author": "TJ Klune",
-    "genres": ["Fantasy", "LGBTQ+"],
-    "popularity": "hidden",
-    "era": "contemporary",
-    "summary": "A caseworker discovers that an orphanage of magical children could change the world—and his heart.",
-    "goodreads": "https://www.goodreads.com/book/show/45047384-the-house-in-the-cerulean-sea"
-  },
-  {
-    "title": "The Song of Achilles",
-    "author": "Madeline Miller",
-    "genres": ["Historical", "Mythology"],
-    "popularity": "blockbuster",
-    "era": "contemporary",
-    "summary": "Patroclus narrates his tender and tragic bond with Achilles in a lyrical Trojan War retelling.",
-    "goodreads": "https://www.goodreads.com/book/show/11250317-the-song-of-achilles"
   },
   {
     "title": "The Shadow of the Wind",
@@ -113,7 +167,7 @@
     "genres": ["Mystery", "Historical"],
     "popularity": "critical",
     "era": "modern",
-    "summary": "In post-war Barcelona, a boy safeguards a forgotten author whose works are being destroyed.",
+    "summary": "A boy discovers a forgotten author whose works are being destroyed in postwar Barcelona.",
     "goodreads": "https://www.goodreads.com/book/show/1232.The_Shadow_of_the_Wind"
   },
   {
@@ -122,8 +176,26 @@
     "genres": ["Fantasy", "Mythology"],
     "popularity": "critical",
     "era": "contemporary",
-    "summary": "The witch of Aiaia tells her own epic, defying gods and men to forge her path.",
-    "goodreads": "https://www.goodreads.com/book/show/35959740-circe"
+    "summary": "The witch Circe tells her own tale of defiance and transformation.",
+    "goodreads": "https://www.goodreads.com/book/show/35959740-Circe"
+  },
+  {
+    "title": "The Song of Achilles",
+    "author": "Madeline Miller",
+    "genres": ["Historical", "Mythology"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "Patroclus narrates his love for Achilles in a tragic retelling of the Iliad.",
+    "goodreads": "https://www.goodreads.com/book/show/11250317-The_Song_of_Achilles"
+  },
+  {
+    "title": "The Left Hand of Darkness",
+    "author": "Ursula K. Le Guin",
+    "genres": ["Science Fiction", "Political"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "An envoy to an icy world navigates gender and diplomacy to secure peace.",
+    "goodreads": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness"
   },
   {
     "title": "Murder on the Orient Express",
@@ -131,7 +203,7 @@
     "genres": ["Mystery", "Crime"],
     "popularity": "blockbuster",
     "era": "classic",
-    "summary": "Poirot must unmask a murderer aboard a snowbound luxury train.",
+    "summary": "Detective Poirot investigates a murder aboard a snowbound train.",
     "goodreads": "https://www.goodreads.com/book/show/853510.Murder_on_the_Orient_Express"
   },
   {
@@ -140,16 +212,646 @@
     "genres": ["Classic", "Romance"],
     "popularity": "critical",
     "era": "classic",
-    "summary": "Janie Crawford recounts her search for love and self-determination in the American South.",
+    "summary": "Janie Crawford seeks love and self-realization in the American South.",
     "goodreads": "https://www.goodreads.com/book/show/37415.Their_Eyes_Were_Watching_God"
   },
   {
-    "title": "The Ten Thousand Doors of January",
-    "author": "Alix E. Harrow",
-    "genres": ["Fantasy", "Adventure"],
+    "title": "The Trial",
+    "author": "Franz Kafka",
+    "genres": ["Classic", "Philosophical", "Psychological"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "A man is arrested and prosecuted by a remote, inaccessible authority without ever being told his crime.",
+    "goodreads": "https://www.goodreads.com/book/show/17690.The_Trial"
+  },
+  {
+    "title": "Steppenwolf",
+    "author": "Hermann Hesse",
+    "genres": ["Philosophical", "Psychological"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "A lonely intellectual battles between his human and wolfish natures in a journey of self-understanding.",
+    "goodreads": "https://www.goodreads.com/book/show/16631.Steppenwolf"
+  },
+  {
+    "title": "Demian",
+    "author": "Hermann Hesse",
+    "genres": ["Philosophical", "Psychological"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "A young man discovers his dual nature and awakens to individuality and self-awareness.",
+    "goodreads": "https://www.goodreads.com/book/show/151220.Demian"
+  },
+  {
+    "title": "The Idiot",
+    "author": "Fyodor Dostoevsky",
+    "genres": ["Classic", "Psychological"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "An innocent man’s purity collides with the corruption of society, leading to tragedy.",
+    "goodreads": "https://www.goodreads.com/book/show/12505.The_Idiot"
+  },
+  {
+    "title": "Notes from Underground",
+    "author": "Fyodor Dostoevsky",
+    "genres": ["Classic", "Philosophical", "Psychological"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "A bitter, isolated man rants about society and his own contradictions in existential despair.",
+    "goodreads": "https://www.goodreads.com/book/show/49455.Notes_from_Underground"
+  },
+  {
+    "title": "Nausea",
+    "author": "Jean-Paul Sartre",
+    "genres": ["Philosophical", "Psychological"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "A man experiences the unbearable absurdity of existence in a meaningless world.",
+    "goodreads": "https://www.goodreads.com/book/show/298.Nausea"
+  },
+  {
+    "title": "The Plague",
+    "author": "Albert Camus",
+    "genres": ["Philosophical", "Drama"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "A town's fight against an epidemic becomes a reflection on human resilience and absurdity.",
+    "goodreads": "https://www.goodreads.com/book/show/11989.The_Plague"
+  },
+  {
+    "title": "The Fall",
+    "author": "Albert Camus",
+    "genres": ["Philosophical", "Psychological"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "A man confesses his moral downfall in a monologue on guilt and self-deception.",
+    "goodreads": "https://www.goodreads.com/book/show/11991.The_Fall"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genres": ["Classic", "Psychological"],
+    "popularity": "blockbuster",
+    "era": "modern",
+    "summary": "Holden Caulfield recounts a few days of teenage rebellion and disillusionment in New York.",
+    "goodreads": "https://www.goodreads.com/book/show/5107.The_Catcher_in_the_Rye"
+  },
+  {
+    "title": "A Farewell to Arms",
+    "author": "Ernest Hemingway",
+    "genres": ["Classic", "Romance", "Historical"],
+    "popularity": "blockbuster",
+    "era": "classic",
+    "summary": "An ambulance driver in World War I falls in love amid chaos and loss.",
+    "goodreads": "https://www.goodreads.com/book/show/10799.A_Farewell_to_Arms"
+  },
+  {
+    "title": "Women",
+    "author": "Charles Bukowski",
+    "genres": ["Drama", "Psychological"],
     "popularity": "hidden",
+    "era": "modern",
+    "summary": "A hard-drinking writer navigates love, lust, and loneliness with raw honesty.",
+    "goodreads": "https://www.goodreads.com/book/show/4999.Women"
+  },
+  {
+    "title": "Factotum",
+    "author": "Charles Bukowski",
+    "genres": ["Drama", "Psychological"],
+    "popularity": "hidden",
+    "era": "modern",
+    "summary": "A drifting writer survives through odd jobs and relentless self-destruction.",
+    "goodreads": "https://www.goodreads.com/book/show/4997.Factotum"
+  },
+  {
+    "title": "South of the Border, West of the Sun",
+    "author": "Haruki Murakami",
+    "genres": ["Romance", "Psychological"],
+    "popularity": "critical",
     "era": "contemporary",
-    "summary": "Secret doors to other worlds beckon a young woman to rewrite her story.",
-    "goodreads": "https://www.goodreads.com/book/show/43521657-the-ten-thousand-doors-of-january"
+    "summary": "A jazz bar owner is haunted by the memory of his first love.",
+    "goodreads": "https://www.goodreads.com/book/show/9557.South_of_the_Border_West_of_the_Sun"
+  },
+  {
+    "title": "Sputnik Sweetheart",
+    "author": "Haruki Murakami",
+    "genres": ["Romance", "Magical Realism"],
+    "popularity": "critical",
+    "era": "contemporary",
+    "summary": "A young man searches for his best friend who vanished on a Greek island.",
+    "goodreads": "https://www.goodreads.com/book/show/11297.Sputnik_Sweetheart"
+  },
+  {
+    "title": "The Wind-Up Bird Chronicle",
+    "author": "Haruki Murakami",
+    "genres": ["Magical Realism", "Psychological"],
+    "popularity": "critical",
+    "era": "contemporary",
+    "summary": "A man searches for his missing wife and uncovers dark truths about himself and Japan.",
+    "goodreads": "https://www.goodreads.com/book/show/11275.The_Wind_Up_Bird_Chronicle"
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "genres": ["Classic", "Gothic", "Philosophical"],
+    "popularity": "blockbuster",
+    "era": "classic",
+    "summary": "A man stays eternally young while his portrait bears the marks of his corruption.",
+    "goodreads": "https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray"
+  },
+  {
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "genres": ["Classic", "Gothic", "Science Fiction"],
+    "popularity": "blockbuster",
+    "era": "classic",
+    "summary": "A scientist’s creation turns monstrous as he rejects the creature he gave life to.",
+    "goodreads": "https://www.goodreads.com/book/show/18490.Frankenstein"
+  },
+  {
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "genres": ["Classic", "Gothic", "Thriller"],
+    "popularity": "blockbuster",
+    "era": "classic",
+    "summary": "A group of people confront the ancient vampire Count Dracula in Victorian England.",
+    "goodreads": "https://www.goodreads.com/book/show/17245.Dracula"
+  },
+  {
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "genres": ["Classic", "Gothic", "Romance"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "The doomed love between Heathcliff and Catherine haunts the Yorkshire moors.",
+    "goodreads": "https://www.goodreads.com/book/show/6185.Wuthering_Heights"
+  },
+  {
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "genres": ["Classic", "Romance", "Gothic"],
+    "popularity": "blockbuster",
+    "era": "classic",
+    "summary": "An orphaned governess finds love and independence while confronting secrets.",
+    "goodreads": "https://www.goodreads.com/book/show/10210.Jane_Eyre"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genres": ["Science Fiction", "Political"],
+    "popularity": "blockbuster",
+    "era": "modern",
+    "summary": "A man struggles for truth and love under a totalitarian surveillance state.",
+    "goodreads": "https://www.goodreads.com/book/show/40961427-1984"
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "genres": ["Science Fiction", "Philosophical"],
+    "popularity": "blockbuster",
+    "era": "modern",
+    "summary": "In a hedonistic future, individuality and emotion are sacrificed for stability.",
+    "goodreads": "https://www.goodreads.com/book/show/5129.Brave_New_World"
+  },
+  {
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "genres": ["Political", "Classic"],
+    "popularity": "blockbuster",
+    "era": "modern",
+    "summary": "Farm animals revolt against humans, only to face a new tyranny among themselves.",
+    "goodreads": "https://www.goodreads.com/book/show/170448.Animal_Farm"
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "genres": ["Science Fiction", "Political"],
+    "popularity": "blockbuster",
+    "era": "modern",
+    "summary": "A fireman burns books in a future where reading is forbidden, until he questions everything.",
+    "goodreads": "https://www.goodreads.com/book/show/13079982-Fahrenheit_451"
+  },
+  {
+    "title": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "genres": ["Classic", "Psychological", "Philosophical"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "A man wakes up transformed into a giant insect and faces alienation from his family.",
+    "goodreads": "https://www.goodreads.com/book/show/485894.The_Metamorphosis"
+  },
+  {
+    "title": "The Republic",
+    "author": "Plato",
+    "genres": ["Classic", "Philosophical", "Political"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "Plato explores justice, governance, and the nature of reality in a dialogue of ideas.",
+    "goodreads": "https://www.goodreads.com/book/show/30289.The_Republic"
+  },
+  {
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "genres": ["Classic", "Philosophical"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "The Roman emperor reflects on Stoic principles and the pursuit of virtue.",
+    "goodreads": "https://www.goodreads.com/book/show/30659.Meditations"
+  },
+  {
+    "title": "The Stranger Beside Me",
+    "author": "Ann Rule",
+    "genres": ["Crime", "Thriller"],
+    "popularity": "blockbuster",
+    "era": "modern",
+    "summary": "A true-crime writer recounts her personal connection with serial killer Ted Bundy.",
+    "goodreads": "https://www.goodreads.com/book/show/52833.The_Stranger_Beside_Me"
+  },
+  {
+    "title": "In Cold Blood",
+    "author": "Truman Capote",
+    "genres": ["Crime", "Drama"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "A chilling account of a real-life Kansas family murder and its aftermath.",
+    "goodreads": "https://www.goodreads.com/book/show/168642.In_Cold_Blood"
+  },
+  {
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "genres": ["Thriller", "Mystery"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "A wife's disappearance turns into a media frenzy as dark secrets unravel.",
+    "goodreads": "https://www.goodreads.com/book/show/19288043-Gone_Girl"
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "genres": ["Thriller", "Crime", "Mystery"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "A journalist and hacker investigate a decades-old disappearance tied to family corruption.",
+    "goodreads": "https://www.goodreads.com/book/show/2429135.The_Girl_with_the_Dragon_Tattoo"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "author": "Thomas Harris",
+    "genres": ["Thriller", "Crime", "Psychological"],
+    "popularity": "blockbuster",
+    "era": "modern",
+    "summary": "An FBI trainee seeks the help of a brilliant but murderous psychiatrist to catch another killer.",
+    "goodreads": "https://www.goodreads.com/book/show/23807.The_Silence_of_the_Lambs"
+  },
+  {
+    "title": "American Psycho",
+    "author": "Bret Easton Ellis",
+    "genres": ["Psychological", "Thriller", "Satire"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "A Wall Street banker hides a monstrous secret life of violence and obsession.",
+    "goodreads": "https://www.goodreads.com/book/show/28676.American_Psycho"
+  },
+  {
+    "title": "The Secret History",
+    "author": "Donna Tartt",
+    "genres": ["Mystery", "Psychological", "Drama"],
+    "popularity": "blockbuster",
+    "era": "modern",
+    "summary": "A group of elite students becomes entangled in intellectual obsession and murder.",
+    "goodreads": "https://www.goodreads.com/book/show/29044.The_Secret_History"
+  },
+  {
+    "title": "The Bell Jar",
+    "author": "Sylvia Plath",
+    "genres": ["Psychological", "Drama"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "A young woman’s descent into depression reveals the suffocating expectations of society.",
+    "goodreads": "https://www.goodreads.com/book/show/6514.The_Bell_Jar"
+  },
+  {
+    "title": "A Little Life",
+    "author": "Hanya Yanagihara",
+    "genres": ["Drama", "Psychological", "LGBTQ+"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "Four college friends navigate trauma, love, and survival in New York City.",
+    "goodreads": "https://www.goodreads.com/book/show/22822858.A_Little_Life"
+  },
+  {
+    "title": "Call Me by Your Name",
+    "author": "André Aciman",
+    "genres": ["Romance", "LGBTQ+", "Drama"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "A summer romance blossoms between a teenage boy and a visiting scholar in Italy.",
+    "goodreads": "https://www.goodreads.com/book/show/2225715.Call_Me_by_Your_Name"
+  },
+  {
+    "title": "Giovanni’s Room",
+    "author": "James Baldwin",
+    "genres": ["Classic", "LGBTQ+", "Drama"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "An American man in Paris struggles with identity and forbidden love.",
+    "goodreads": "https://www.goodreads.com/book/show/38462.Giovanni_s_Room"
+  },
+  {
+    "title": "Orlando",
+    "author": "Virginia Woolf",
+    "genres": ["Classic", "LGBTQ+", "Fantasy"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "A gender-shifting nobleman lives for centuries, exploring art and identity.",
+    "goodreads": "https://www.goodreads.com/book/show/18839.Orlando"
+  },
+  {
+    "title": "Mrs. Dalloway",
+    "author": "Virginia Woolf",
+    "genres": ["Classic", "Psychological"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "A day in the life of Clarissa Dalloway reveals the inner workings of the human mind.",
+    "goodreads": "https://www.goodreads.com/book/show/14942.Mrs_Dalloway"
+  },
+  {
+    "title": "To the Lighthouse",
+    "author": "Virginia Woolf",
+    "genres": ["Classic", "Psychological", "Philosophical"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "A family vacation unfolds through shifting perspectives and time.",
+    "goodreads": "https://www.goodreads.com/book/show/59716.To_the_Lighthouse"
+  },
+  {
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut",
+    "genres": ["Science Fiction", "Political", "Philosophical"],
+    "popularity": "blockbuster",
+    "era": "modern",
+    "summary": "A soldier becomes unstuck in time while witnessing the horrors of war.",
+    "goodreads": "https://www.goodreads.com/book/show/4981.Slaughterhouse_Five"
+  },
+  {
+    "title": "Catch-22",
+    "author": "Joseph Heller",
+    "genres": ["Political", "Satire", "War"],
+    "popularity": "blockbuster",
+    "era": "modern",
+    "summary": "A bombardier trapped in World War II faces absurd bureaucracy and survival.",
+    "goodreads": "https://www.goodreads.com/book/show/168668.Catch_22"
+  },
+  {
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "genres": ["Classic", "Historical", "Political"],
+    "popularity": "blockbuster",
+    "era": "classic",
+    "summary": "An ex-convict seeks redemption amid revolution and injustice in 19th-century France.",
+    "goodreads": "https://www.goodreads.com/book/show/24280.Les_Mis_rables"
+  },
+  {
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "genres": ["Classic", "Historical", "Philosophical"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "Russian families grapple with love and destiny during Napoleon’s invasion.",
+    "goodreads": "https://www.goodreads.com/book/show/656.War_and_Peace"
+  },
+  {
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "genres": ["Classic", "Romance", "Drama"],
+    "popularity": "blockbuster",
+    "era": "classic",
+    "summary": "A married woman risks everything for love, leading to tragedy.",
+    "goodreads": "https://www.goodreads.com/book/show/15823480.Anna_Karenina"
+  },
+  {
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "genres": ["Classic", "Adventure", "Drama"],
+    "popularity": "blockbuster",
+    "era": "classic",
+    "summary": "A wrongfully imprisoned man seeks vengeance and justice against his betrayers.",
+    "goodreads": "https://www.goodreads.com/book/show/7126.The_Count_of_Monte_Cristo"
+  },
+  {
+    "title": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "genres": ["Classic", "Adventure"],
+    "popularity": "blockbuster",
+    "era": "classic",
+    "summary": "A young man joins the king’s musketeers and finds friendship, honor, and intrigue.",
+    "goodreads": "https://www.goodreads.com/book/show/7190.The_Three_Musketeers"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genres": ["Classic", "Political", "Science Fiction"],
+    "popularity": "blockbuster",
+    "era": "classic",
+    "summary": "A dystopian society lives under total surveillance and government control.",
+    "goodreads": "https://www.goodreads.com/book/show/5470.1984"
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "genres": ["Science Fiction", "Philosophical", "Classic"],
+    "popularity": "blockbuster",
+    "era": "classic",
+    "summary": "In a controlled future society, comfort and conformity replace freedom and thought.",
+    "goodreads": "https://www.goodreads.com/book/show/5129.Brave_New_World"
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "genres": ["Science Fiction", "Political", "Classic"],
+    "popularity": "blockbuster",
+    "era": "modern",
+    "summary": "In a world where books are banned, a fireman begins questioning his purpose.",
+    "goodreads": "https://www.goodreads.com/book/show/17470674.Fahrenheit_451"
+  },
+  {
+    "title": "The Left Hand of Darkness",
+    "author": "Ursula K. Le Guin",
+    "genres": ["Science Fiction", "LGBTQ+", "Philosophical"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "An envoy navigates gender and politics on a distant, icy planet.",
+    "goodreads": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness"
+  },
+  {
+    "title": "The Dispossessed",
+    "author": "Ursula K. Le Guin",
+    "genres": ["Science Fiction", "Political", "Philosophical"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "A physicist seeks balance between two worlds divided by ideology.",
+    "goodreads": "https://www.goodreads.com/book/show/13651.The_Dispossessed"
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "genres": ["Science Fiction", "Adventure", "Philosophical"],
+    "popularity": "blockbuster",
+    "era": "modern",
+    "summary": "A desert planet becomes the center of political and spiritual revolution.",
+    "goodreads": "https://www.goodreads.com/book/show/44767458.Dune"
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genres": ["Fantasy", "Adventure", "Classic"],
+    "popularity": "blockbuster",
+    "era": "classic",
+    "summary": "A hobbit embarks on an unexpected journey to reclaim a stolen treasure.",
+    "goodreads": "https://www.goodreads.com/book/show/5907.The_Hobbit"
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "genres": ["Fantasy", "Adventure", "Classic"],
+    "popularity": "blockbuster",
+    "era": "classic",
+    "summary": "A fellowship must destroy a powerful ring to save Middle-earth.",
+    "goodreads": "https://www.goodreads.com/book/show/33.The_Lord_of_the_Rings"
+  },
+  {
+    "title": "A Game of Thrones",
+    "author": "George R.R. Martin",
+    "genres": ["Fantasy", "Political", "Drama"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "Noble families vie for power in a brutal, war-torn realm.",
+    "goodreads": "https://www.goodreads.com/book/show/13496.A_Game_of_Thrones"
+  },
+  {
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "genres": ["Fantasy", "Adventure", "Drama"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "A gifted young man recounts his rise to legend and infamy.",
+    "goodreads": "https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind"
+  },
+  {
+    "title": "Circe",
+    "author": "Madeline Miller",
+    "genres": ["Mythology", "Fantasy", "Romance"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "A goddess finds her strength and defies the gods who underestimated her.",
+    "goodreads": "https://www.goodreads.com/book/show/35959740.Circe"
+  },
+  {
+    "title": "The Song of Achilles",
+    "author": "Madeline Miller",
+    "genres": ["Mythology", "Romance", "LGBTQ+"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "A tender retelling of Achilles and Patroclus’s legendary love story.",
+    "goodreads": "https://www.goodreads.com/book/show/13623848.The_Song_of_Achilles"
+  },
+  {
+    "title": "Norse Mythology",
+    "author": "Neil Gaiman",
+    "genres": ["Mythology", "Fantasy"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "Retells the Norse myths with humor, pathos, and reverence for the old gods.",
+    "goodreads": "https://www.goodreads.com/book/show/37903770.Norse_Mythology"
+  },
+  {
+    "title": "The Iliad",
+    "author": "Homer",
+    "genres": ["Classic", "Mythology", "Adventure"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "Epic tale of honor, wrath, and fate during the Trojan War.",
+    "goodreads": "https://www.goodreads.com/book/show/1371.The_Iliad"
+  },
+  {
+    "title": "The Odyssey",
+    "author": "Homer",
+    "genres": ["Classic", "Mythology", "Adventure"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "Odysseus journeys home through peril and temptation after the Trojan War.",
+    "goodreads": "https://www.goodreads.com/book/show/1381.The_Odyssey"
+  },
+  {
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "genres": ["Science Fiction", "Adventure"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "An astronaut stranded on Mars uses ingenuity to survive alone.",
+    "goodreads": "https://www.goodreads.com/book/show/18007564.The_Martian"
+  },
+  {
+    "title": "Never Let Me Go",
+    "author": "Kazuo Ishiguro",
+    "genres": ["Science Fiction", "Drama", "Philosophical"],
+    "popularity": "critical",
+    "era": "contemporary",
+    "summary": "Children at a mysterious boarding school uncover the truth about their existence.",
+    "goodreads": "https://www.goodreads.com/book/show/6334.Never_Let_Me_Go"
+  },
+  {
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "genres": ["Post-Apocalyptic", "Philosophical", "Drama"],
+    "popularity": "critical",
+    "era": "contemporary",
+    "summary": "A father and son struggle to survive in a desolate, dying world.",
+    "goodreads": "https://www.goodreads.com/book/show/6288.The_Road"
+  },
+  {
+    "title": "Life of Pi",
+    "author": "Yann Martel",
+    "genres": ["Adventure", "Philosophical", "Magical Realism"],
+    "popularity": "blockbuster",
+    "era": "modern",
+    "summary": "A boy stranded at sea with a tiger discovers faith and survival.",
+    "goodreads": "https://www.goodreads.com/book/show/4214.Life_of_Pi"
+  },
+  {
+    "title": "The Handmaid’s Tale",
+    "author": "Margaret Atwood",
+    "genres": ["Science Fiction", "Political", "Drama"],
+    "popularity": "blockbuster",
+    "era": "modern",
+    "summary": "A woman resists oppression in a dystopian theocracy where fertility is power.",
+    "goodreads": "https://www.goodreads.com/book/show/38447.The_Handmaid_s_Tale"
+  },
+  {
+    "title": "Blindness",
+    "author": "José Saramago",
+    "genres": ["Philosophical", "Psychological", "Drama"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "A sudden epidemic of blindness reveals humanity’s moral decay.",
+    "goodreads": "https://www.goodreads.com/book/show/2526.Blindness"
+  },
+  {
+    "title": "The Unbearable Lightness of Being",
+    "author": "Milan Kundera",
+    "genres": ["Philosophical", "Romance", "Political"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "Love, politics, and existentialism intertwine in Soviet-occupied Prague.",
+    "goodreads": "https://www.goodreads.com/book/show/9717.The_Unbearable_Lightness_of_Being"
+  },
+  {
+    "title": "Thus Spoke Zarathustra",
+    "author": "Friedrich Nietzsche",
+    "genres": ["Philosophical", "Classic"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "Nietzsche’s poetic exploration of the Übermensch and eternal recurrence.",
+    "goodreads": "https://www.goodreads.com/book/show/51893.Thus_Spoke_Zarathustra"
   }
 ]

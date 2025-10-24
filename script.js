@@ -35,6 +35,7 @@ const paginationControls = document.getElementById("paginationControls");
 const PAGE_SIZE = 9;
 let currentPage = 1;
 let filteredBooks = [];
+const ADDITIONAL_GENRES = ["Philosophical", "Psychological"];
 
 const filterState = {
 	genres: new Set(),
@@ -164,7 +165,10 @@ function populateGenreOptions() {
 		}
 	}
 
-	const genres = Array.from(new Set(books.flatMap(book => Array.isArray(book.genres) ? book.genres : []))).sort();
+	const genreSet = new Set(books.flatMap(book => Array.isArray(book.genres) ? book.genres : []));
+	ADDITIONAL_GENRES.forEach(genre => genreSet.add(genre));
+
+	const genres = Array.from(genreSet).sort();
 	if (!genres.length) {
 		return;
 	}
