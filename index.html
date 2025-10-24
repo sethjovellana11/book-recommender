@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Book Recommender</title>
+</head>
+<body>
+    <header class="page-header">
+        <div class="container">
+            <h1>Find Your Next Read</h1>
+            <p>Mix and match filters to surface novels that match your mood.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="filters" aria-label="Book filters">
+            <form id="filterForm">
+                <fieldset>
+                    <legend>Genre</legend>
+                    <p class="helper-text">Select to add a genre; pick as many as you like.</p>
+                    <label for="genreSelect" class="sr-only">Genre</label>
+                    <select id="genreSelect" name="genre">
+                        <option value="" selected>Add a genre filter</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Popularity</legend>
+                    <label for="popularitySelect" class="sr-only">Popularity</label>
+                    <select id="popularitySelect" name="popularity">
+                        <option value="any">All popularity levels</option>
+                        <option value="blockbuster">Blockbuster hits</option>
+                        <option value="critical">Critically adored</option>
+                        <option value="hidden">Hidden gems</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Era</legend>
+                    <label for="eraSelect" class="sr-only">Era</label>
+                    <select id="eraSelect" name="era">
+                        <option value="any">Any era</option>
+                        <option value="classic">Classic (pre-1950)</option>
+                        <option value="modern">Modern (1950-1999)</option>
+                        <option value="contemporary">Contemporary (2000+)</option>
+                    </select>
+                </fieldset>
+
+                <div class="filter-actions">
+                    <button type="reset">Clear filters</button>
+                </div>
+            </form>
+
+            <div class="active-filters" aria-label="Active filters">
+                <h2>Active filters</h2>
+                <div id="activeFiltersContainer" class="filter-chips" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <section aria-live="polite" aria-label="Book recommendations">
+            <div id="resultsHeading" class="results-heading">Showing recommendations</div>
+            <div id="bookResults" class="book-grid"></div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            Curated with love for bibliophiles everywhere.
+        </div>
+    </footer>
+</body>
+</html>

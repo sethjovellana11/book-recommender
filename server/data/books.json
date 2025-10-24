@@ -1,0 +1,155 @@
+[
+  {
+    "title": "The Night Circus",
+    "author": "Erin Morgenstern",
+    "genres": ["Fantasy", "Romance"],
+    "popularity": "critical",
+    "era": "contemporary",
+    "summary": "Two magicians locked in a mysterious duel weave a circus of wonders that appears without warning.",
+    "goodreads": "https://www.goodreads.com/book/show/9361589-the-night-circus"
+  },
+  {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "genres": ["Science Fiction", "Thriller"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "A lone astronaut wakes with no memory and must save humanity armed with science and stubborn optimism.",
+    "goodreads": "https://www.goodreads.com/book/show/54493401-project-hail-mary"
+  },
+  {
+    "title": "Pachinko",
+    "author": "Min Jin Lee",
+    "genres": ["Historical", "Drama"],
+    "popularity": "critical",
+    "era": "contemporary",
+    "summary": "Four generations of a Korean family fight to control their destiny in 20th century Japan.",
+    "goodreads": "https://www.goodreads.com/book/show/29950575-pachinko"
+  },
+  {
+    "title": "Kindred",
+    "author": "Octavia E. Butler",
+    "genres": ["Science Fiction", "Historical"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "A modern Black woman is pulled through time to a pre-Civil War plantation, confronting history firsthand.",
+    "goodreads": "https://www.goodreads.com/book/show/60931.Kindred"
+  },
+  {
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "genres": ["Fantasy", "Adventure"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "Kvothe recounts his legendary life, from orphaned street performer to infamous arcanist.",
+    "goodreads": "https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind"
+  },
+  {
+    "title": "The Seven Husbands of Evelyn Hugo",
+    "author": "Taylor Jenkins Reid",
+    "genres": ["Drama", "Romance"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "An aging Hollywood icon reveals her ruthless rise to fame and the love she never stopped fighting for.",
+    "goodreads": "https://www.goodreads.com/book/show/32620332-the-seven-husbands-of-evelyn-hugo"
+  },
+  {
+    "title": "Mistborn: The Final Empire",
+    "author": "Brandon Sanderson",
+    "genres": ["Fantasy", "Adventure"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "A ragtag crew plots to overthrow an immortal tyrant using a unique metal-based magic system.",
+    "goodreads": "https://www.goodreads.com/book/show/68428.Mistborn"
+  },
+  {
+    "title": "The Ocean at the End of the Lane",
+    "author": "Neil Gaiman",
+    "genres": ["Fantasy", "Magical Realism"],
+    "popularity": "critical",
+    "era": "contemporary",
+    "summary": "A man revisits childhood memories where ancient forces threatened reality itself.",
+    "goodreads": "https://www.goodreads.com/book/show/15783514-the-ocean-at-the-end-of-the-lane"
+  },
+  {
+    "title": "The Left Hand of Darkness",
+    "author": "Ursula K. Le Guin",
+    "genres": ["Science Fiction", "Political"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "An envoy to an icy world must navigate shifting alliances and gender fluidity to broker peace.",
+    "goodreads": "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness"
+  },
+  {
+    "title": "Rebecca",
+    "author": "Daphne du Maurier",
+    "genres": ["Gothic", "Mystery"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "A new bride arrives at Manderley only to be haunted by the lingering presence of Rebecca.",
+    "goodreads": "https://www.goodreads.com/book/show/12873.Rebecca"
+  },
+  {
+    "title": "The House in the Cerulean Sea",
+    "author": "TJ Klune",
+    "genres": ["Fantasy", "LGBTQ+"],
+    "popularity": "hidden",
+    "era": "contemporary",
+    "summary": "A caseworker discovers that an orphanage of magical children could change the world—and his heart.",
+    "goodreads": "https://www.goodreads.com/book/show/45047384-the-house-in-the-cerulean-sea"
+  },
+  {
+    "title": "The Song of Achilles",
+    "author": "Madeline Miller",
+    "genres": ["Historical", "Mythology"],
+    "popularity": "blockbuster",
+    "era": "contemporary",
+    "summary": "Patroclus narrates his tender and tragic bond with Achilles in a lyrical Trojan War retelling.",
+    "goodreads": "https://www.goodreads.com/book/show/11250317-the-song-of-achilles"
+  },
+  {
+    "title": "The Shadow of the Wind",
+    "author": "Carlos Ruiz Zafón",
+    "genres": ["Mystery", "Historical"],
+    "popularity": "critical",
+    "era": "modern",
+    "summary": "In post-war Barcelona, a boy safeguards a forgotten author whose works are being destroyed.",
+    "goodreads": "https://www.goodreads.com/book/show/1232.The_Shadow_of_the_Wind"
+  },
+  {
+    "title": "Circe",
+    "author": "Madeline Miller",
+    "genres": ["Fantasy", "Mythology"],
+    "popularity": "critical",
+    "era": "contemporary",
+    "summary": "The witch of Aiaia tells her own epic, defying gods and men to forge her path.",
+    "goodreads": "https://www.goodreads.com/book/show/35959740-circe"
+  },
+  {
+    "title": "Murder on the Orient Express",
+    "author": "Agatha Christie",
+    "genres": ["Mystery", "Crime"],
+    "popularity": "blockbuster",
+    "era": "classic",
+    "summary": "Poirot must unmask a murderer aboard a snowbound luxury train.",
+    "goodreads": "https://www.goodreads.com/book/show/853510.Murder_on_the_Orient_Express"
+  },
+  {
+    "title": "Their Eyes Were Watching God",
+    "author": "Zora Neale Hurston",
+    "genres": ["Classic", "Romance"],
+    "popularity": "critical",
+    "era": "classic",
+    "summary": "Janie Crawford recounts her search for love and self-determination in the American South.",
+    "goodreads": "https://www.goodreads.com/book/show/37415.Their_Eyes_Were_Watching_God"
+  },
+  {
+    "title": "The Ten Thousand Doors of January",
+    "author": "Alix E. Harrow",
+    "genres": ["Fantasy", "Adventure"],
+    "popularity": "hidden",
+    "era": "contemporary",
+    "summary": "Secret doors to other worlds beckon a young woman to rewrite her story.",
+    "goodreads": "https://www.goodreads.com/book/show/43521657-the-ten-thousand-doors-of-january"
+  }
+]
