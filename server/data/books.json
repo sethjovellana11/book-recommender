@@ -853,5 +853,14 @@
     "era": "classic",
     "summary": "Nietzsche’s poetic exploration of the Übermensch and eternal recurrence.",
     "goodreads": "https://www.goodreads.com/book/show/51893.Thus_Spoke_Zarathustra"
+  },
+  {
+    "title": "Diary of an Oxygen Thief",
+    "author": "Anonymous",
+    "genres": ["Romance", "Psychological", "Satire"],
+    "popularity": "hidden",
+    "era": "contemporary",
+    "summary": "A misogynistic drunkard recalls his romantic escapade of \"killing\" women",
+    "goodreads": "https://www.goodreads.com/book/show/1561703.Diary_of_an_Oxygen_Thief"
   }
 ]
